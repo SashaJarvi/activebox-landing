@@ -2705,7 +2705,7 @@ body {
   background-position: center top, center top;
 }
 #header .header-content-top {
-  padding: 30px 0 30px;
+  padding: 40px 0 40px;
   background-color: rgba(43, 48, 58, 0);
   transition: background-color 0.2s ease-in;
   position: fixed;
@@ -3097,7 +3097,7 @@ footer .footer-bottom .footer-bottom-author .author-name {
     margin-left: 20px;
   }
   #header .header-content-middle {
-    padding: 30% 0 10%;
+    padding: 25% 0 10%;
   }
   main .features {
     -ms-grid-rows: (auto)[3];
@@ -3111,9 +3111,6 @@ footer .footer-bottom .footer-bottom-author .author-name {
     -ms-grid-rows: (auto)[2];
     grid-template-rows: repeat(2, auto);
     grid-row-gap: 30px;
-  }
-  footer .footer-top-content div p {
-    text-align: left;
   }
 }
 @media screen and (max-width: 572px) {
@@ -3139,7 +3136,7 @@ footer .footer-bottom .footer-bottom-author .author-name {
 }
 @media screen and (max-width: 480px) {
   #header .header-content-middle {
-    padding: 40% 0 10%;
+    padding: 30% 0 10%;
   }
   #header .header-content-middle h1 {
     font-size: 1.75em;
@@ -3174,9 +3171,6 @@ footer .footer-bottom .footer-bottom-author .author-name {
     grid-template-rows: repeat(3, auto);
     grid-row-gap: 45px;
   }
-  footer .footer-top-content div p {
-    text-align: center;
-  }
 }
 @media screen and (max-width: 420px) {
   main .features {
@@ -3188,7 +3182,10 @@ footer .footer-bottom .footer-bottom-author .author-name {
 }
 @media screen and (max-width: 412px) {
   #header .header-content-top {
-    padding: 10px 0 10px;
+    padding: 10px 0 0;
+  }
+  #header .header-content-top .inner #nav-bar ul li {
+    padding: 0 0 10px;
   }
   main #form #submit {
     margin: 10px 0 0;
@@ -3196,7 +3193,7 @@ footer .footer-bottom .footer-bottom-author .author-name {
 }
 @media screen and (max-width: 384px) {
   #header .header-content-middle {
-    padding: 50% 0 10%;
+    padding: 35% 0 10%;
   }
   #header .header-content-middle h1 {
     font-size: 1.5em;
