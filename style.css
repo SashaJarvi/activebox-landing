@@ -2691,12 +2691,13 @@ template {
 }
 body {
   margin: 0 auto;
-  max-width: 1900px;
+  max-width: 1920px;
   font-family: Raleway, sans-serif;
 }
 .wrapper {
   margin: 0 auto;
-  max-width: 1170px;
+  padding: 0 20px;
+  max-width: 1210px;
 }
 #header {
   background: linear-gradient(to top, rgba(43, 48, 58, 0.95), rgba(43, 48, 58, 0.95)), url(img/header-bg.jpg);
@@ -2771,7 +2772,7 @@ body {
   border-color: #de1c1c;
 }
 main .features {
-  padding: 120px 0 0;
+  padding-top: 120px;
   display: -ms-grid;
   display: grid;
   justify-content: center;
@@ -2857,7 +2858,7 @@ main .works-item:hover .overlay {
   opacity: 0.9;
 }
 main .team {
-  padding: 100px 0 0;
+  padding-top: 100px;
   display: -ms-grid;
   display: grid;
   justify-content: space-between;
@@ -2974,7 +2975,8 @@ footer .footer-top {
   background-color: #3a3e64;
 }
 footer .footer-top-content {
-  padding: 70px 0 90px;
+  padding-top: 70px;
+  padding-bottom: 90px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
